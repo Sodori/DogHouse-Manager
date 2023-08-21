@@ -1,7 +1,27 @@
-.nav button {
+.nav input {
     width: 3vw;
     height: 3vw;
+    border-radius: 0.5vw;
+    font-weight: bolder;
+    font-size: 150%;
 }
+
+.help {
+    margin-right: 10%;
+}
+
+.Row_A {
+    background-color: yellow;
+}
+
+.Row_B {
+    background-color: grey;
+}
+
+.Row_C {
+    background-color: grey;
+}
+
 
 .level {
     background-color: green;
@@ -10,18 +30,31 @@
     border-spacing: 5px;
     text-align: center;
     display: flex;
+    padding: 1%;
+    margin: 1%;
 }
+
+#B {
+    display: none;
+}
+
+#C {
+    display: none;
+}
+
 
 .Row {
     background-color: yellow;
     width: 6%;
     flex: 1;
-    /* float: left; */
-    padding: 1%;
+    padding: 1% 0.5% 0%;
     border: 2px solid black;
 }
 
 .Seat {
     background-color: lightblue;
-    font-size: 100%;
+    font-size: 120%;
+    line-height: 1%;
+    padding: 1%;
+    margin: 20% 0% 20%;
 }

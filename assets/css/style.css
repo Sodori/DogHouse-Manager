@@ -1,0 +1,27 @@
+.nav button {
+    width: 3vw;
+    height: 3vw;
+}
+
+.level {
+    background-color: green;
+    width: auto;
+    border: 5px solid black;
+    border-spacing: 5px;
+    text-align: center;
+    display: flex;
+}
+
+.Row {
+    background-color: yellow;
+    width: 6%;
+    flex: 1;
+    /* float: left; */
+    padding: 1%;
+    border: 2px solid black;
+}
+
+.Seat {
+    background-color: lightblue;
+    font-size: 100%;
+}

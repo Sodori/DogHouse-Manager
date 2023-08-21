@@ -1,3 +1,46 @@
+/* Dim the field */
+.dimmer {
+    display: none;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    opacity: 90%;
+    background-color: black;
+}
+
+
+/* Box for adding/editing */
+.edit {
+    display: none;
+    background-color: aliceblue;
+    position: fixed;
+    margin: auto;
+    left: 50%;
+    right: 50%;
+    width: 30vw;
+    margin-left: -15vw;
+    height: 80vh;
+    z-index: 9;
+    text-align: center;
+    font-size: 200%;
+}
+
+.EditWindow input {
+    width: 20vw;
+    height: 3vh;
+    align-items: center;
+    text-align: center;
+}
+
+.EditWindow .bottom {
+    display: flex;
+    padding: 5% 15%;
+}
+
+
+/* Raw table section with nav button A B C on top. */
 .nav input {
     width: 3vw;
     height: 3vw;

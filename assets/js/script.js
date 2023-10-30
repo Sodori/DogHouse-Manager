@@ -1,5 +1,3 @@
-document.addEventListener("DOMContentLoaded", () => {
-
 function HelpMe() {
 
 }
@@ -46,23 +44,3 @@ function dimmer(mode) {
     }
     
 }
-
-const Cells = document.getElementsByClassName("Row")
-console.log(Cells)
-
-
-for (let i = 1; i < Cells.length; i++) {
-        let containingElement = document.querySelector('#R' & Cells[i]);
-
-    document.body.addEventListener('click', function( event ){
-        if( containingElement.contains( event.target ) ){
-            console.log("Bing!")
-        } else {
-            console.log("Bong!")
-        }
-});
-}
-
-
-
-});
